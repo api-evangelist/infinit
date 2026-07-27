@@ -1,0 +1,76 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/org/infinit-xyz
+notes: >-
+  First-party client libraries published to npm under the @infinit-xyz scope by
+  the INFINIT team (github.com/infinit-xyz). These make up the open-source INFINIT
+  Library — a TypeScript "action" framework for programmatically deploying and
+  interacting with DeFi protocols — plus the INFINIT CLI that drives it. Both the
+  infinit-library and infinit-cli source repositories were archived (read-only) on
+  2025-09-09; the published packages remain installable. Versions are the npm
+  dist-tag `latest` observed 2026-07-19 (all pre-1.0 alpha).
+packages:
+  - language: typescript
+    registry: npm
+    name: "@infinit-xyz/cli"
+    version: 0.0.0-alpha.20
+    url: https://www.npmjs.com/package/@infinit-xyz/cli
+    repository: https://github.com/infinit-xyz/infinit-cli
+    install: npm install -g @infinit-xyz/cli
+    bin: infinit
+    description: INFINIT command-line tool for deploying and interacting with DeFi protocols via the INFINIT Library.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@infinit-xyz/core"
+    version: 0.0.0
+    url: https://www.npmjs.com/package/@infinit-xyz/core
+    repository: https://github.com/infinit-xyz/infinit-library
+    install: npm install @infinit-xyz/core
+    description: Core action/registry framework of the INFINIT Library that protocol modules build on.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@infinit-xyz/aave-v3"
+    version: 0.0.0-alpha.30
+    url: https://www.npmjs.com/package/@infinit-xyz/aave-v3
+    repository: https://github.com/infinit-xyz/infinit-library
+    install: npm install @infinit-xyz/aave-v3
+    description: INFINIT Library module of on-chain actions for the Aave v3 lending protocol.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@infinit-xyz/uniswap-v3"
+    version: 0.0.0-alpha.27
+    url: https://www.npmjs.com/package/@infinit-xyz/uniswap-v3
+    repository: https://github.com/infinit-xyz/infinit-library
+    install: npm install @infinit-xyz/uniswap-v3
+    description: INFINIT Library module of on-chain actions for the Uniswap v3 DEX.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@infinit-xyz/pendle"
+    version: 0.0.0-alpha.11
+    url: https://www.npmjs.com/package/@infinit-xyz/pendle
+    repository: https://github.com/infinit-xyz/infinit-library
+    install: npm install @infinit-xyz/pendle
+    description: INFINIT Library module of on-chain actions for the Pendle yield protocol.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@infinit-xyz/init-capital"
+    version: 0.0.0-alpha.13
+    url: https://www.npmjs.com/package/@infinit-xyz/init-capital
+    repository: https://github.com/infinit-xyz/infinit-library
+    install: npm install @infinit-xyz/init-capital
+    description: INFINIT Library module of on-chain actions for the INIT Capital money market.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@infinit-xyz/token"
+    version: 0.0.0-alpha.27
+    url: https://www.npmjs.com/package/@infinit-xyz/token
+    repository: https://github.com/infinit-xyz/infinit-library
+    install: npm install @infinit-xyz/token
+    description: INFINIT Library module for deploying and managing ERC-20 tokens.
+    official: true

@@ -1,8 +1,17 @@
 aid: infinit
 name: INFINIT
-description: 'INFINIT is a company surfaced as a portfolio company of electric-capital, eqt-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: defi. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  INFINIT is an AI application for Web3 financial execution that lets anyone
+  research, create, and execute DeFi and trading strategies through AI agents.
+  Its Prompt-to-DeFi experience turns natural-language intents into agent-powered,
+  one-workflow on-chain strategies, and its AI-managed trading vault marketplace
+  lets independent strategy managers deploy non-custodial vaults that depositors
+  access through a single workflow. For developers, INFINIT publishes the
+  open-source INFINIT Library and INFINIT CLI — a TypeScript action framework and
+  command-line tool for programmatically deploying and interacting with DeFi
+  protocols including Aave v3, Uniswap v3, Pendle, and INIT Capital, distributed
+  as npm packages under the @infinit-xyz scope. Backed by Electric Capital and
+  EQT Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/infinit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +20,32 @@ x-backed-by:
 - eqt-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://raw.githubusercontent.com/infinit-xyz/infinit-cli/refs/heads/main/.github/infinit.png
 tags:
 - Company
 - Defi
+- AI Agents
+- Web3
+- Blockchain
+- Trading
+- Automation
+- SDK
+- CLI
+- TypeScript
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +55,38 @@ maintainers:
 common:
 - type: Website
   url: https://infinit.tech/
+- type: DeveloperPortal
+  url: https://docs.infinit.tech
+- type: Documentation
+  url: https://docs.infinit.tech
+- type: GettingStarted
+  url: https://github.com/infinit-xyz/infinit-cli#getting-started
+- type: GitHubOrganization
+  url: https://github.com/infinit-xyz
+- type: Roadmap
+  url: https://docs.infinit.tech/roadmap/overview
+- type: Blog
+  url: https://infinit.tech/medium
+- type: Support
+  url: https://infinit.tech/discord
+- type: SignUp
+  url: https://app.infinit.tech/
+- type: TermsOfService
+  url: https://docs.infinit.tech/others/terms-of-use
+- type: LLMsTxt
+  url: llms/infinit-llms.txt
+- type: Packages
+  url: packages/infinit-packages.yml
+- type: SDKs
+  url: packages/infinit-packages.yml
+- type: CLI
+  url: cli/infinit-cli.yml
+- type: Lifecycle
+  url: lifecycle/infinit-lifecycle.yml
+- type: DomainSecurity
+  url: security/infinit-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

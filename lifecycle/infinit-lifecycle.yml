@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.infinit.tech/roadmap/overview
+roadmap: https://docs.infinit.tech/roadmap/overview
+versioning:
+  scheme: semver
+  notes: >-
+    Client libraries are versioned with npm semver on the @infinit-xyz scope
+    (currently pre-1.0 alpha tags, e.g. 0.0.0-alpha.x). INFINIT does not publish
+    a REST API with an independent version path.
+status_page: null
+sla: null
+deprecation:
+  policy_url: null
+  sunset_header: null
+  notes: >-
+    No formal deprecation policy published. The open-source INFINIT Library
+    (github.com/infinit-xyz/infinit-library) and INFINIT CLI
+    (github.com/infinit-xyz/infinit-cli) source repositories were archived
+    (read-only) on 2025-09-09; the corresponding npm packages remain installable.
+deprecated_repositories:
+  - https://github.com/infinit-xyz/infinit-library
+  - https://github.com/infinit-xyz/infinit-cli

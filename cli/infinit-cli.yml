@@ -1,0 +1,35 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/infinit-xyz/infinit-cli
+docs: https://docs.infinit.tech
+name: INFINIT CLI
+status: alpha
+archived: '2025-09-09'
+package: "@infinit-xyz/cli"
+binary: infinit
+description: >-
+  Command-line tool for interacting with the open-source INFINIT Library — a
+  TypeScript action framework for deploying and interacting with DeFi protocols
+  (Aave v3, Uniswap v3, Pendle, INIT Capital, ERC-20 tokens). Alpha release; the
+  source repository was archived (read-only) on 2025-09-09 while the published
+  npm package remains installable.
+install:
+  - method: npm
+    command: npm install -g @infinit-xyz/cli
+  - method: bun
+    command: bun install @infinit-xyz/cli
+runtime: Node.js / Bun; uses viem for EVM interaction
+commands:
+  - group: init
+    summary: Scaffold / initialize a new INFINIT project workspace.
+  - group: account
+    summary: Manage EVM accounts / signers used to sign and send on-chain transactions.
+  - group: project
+    summary: Manage the INFINIT project (configuration, chain, protocol targets).
+  - group: action
+    summary: Run INFINIT Library actions against a target DeFi protocol.
+  - group: contract
+    summary: Inspect / interact with deployed smart contracts.
+  - group: script
+    summary: Author and run scripted multi-action workflows.
+source_evidence: https://github.com/infinit-xyz/infinit-cli/tree/main/src/commands

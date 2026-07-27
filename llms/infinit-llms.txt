@@ -1,0 +1,48 @@
+# INFINIT
+
+## English
+
+- [What is INFINIT?](https://docs.infinit.tech/project-overview/what-is-infinit.md)
+- [Marketplace](https://docs.infinit.tech/infinit-ai-managed-trading-strategy-marketplace/marketplace.md)
+- [The Debut Vault](https://docs.infinit.tech/infinit-ai-managed-trading-strategy-marketplace/the-debut-vault.md)
+- [APEX MS Backtest Report](https://docs.infinit.tech/infinit-ai-managed-trading-strategy-marketplace/the-debut-vault/apex-ms-backtest-report.md)
+- [Risk Framework](https://docs.infinit.tech/infinit-ai-managed-trading-strategy-marketplace/risk-framework.md): These controls describe the debut vault specifically. Other vaults on the platform set their own risk parameters.
+- [Vault Terms](https://docs.infinit.tech/infinit-ai-managed-trading-strategy-marketplace/vault-terms.md): The following apply across vaults on the INFINIT platform. Specific rates and durations are defined per vault.
+- [FAQ](https://docs.infinit.tech/faq-1.md)
+- [Peckshield Report](https://docs.infinit.tech/audit/peckshield-report.md)
+- [Legal Disclaimer](https://docs.infinit.tech/legal-disclaimer/legal-disclaimer.md)
+- [Prompt-to-DeFi](https://docs.infinit.tech/core-features/prompt-to-defi.md): AI-Powered DeFi Strategy Creation
+- [Tutorial & Prompt Guide](https://docs.infinit.tech/core-features/prompt-to-defi/tutorial-and-prompt-guide.md)
+- [Agent-Powered Execution](https://docs.infinit.tech/core-features/agent-powered-execution.md): One-Workflow DeFi Strategies
+- [AI-Powered Discovery Engine](https://docs.infinit.tech/key-components-of-infinit/ai-powered-discovery-engine.md)
+- [INFINIT Agent Swarm](https://docs.infinit.tech/key-components-of-infinit/infinit-agent-swarm.md)
+- [Agentic Design Patterns](https://docs.infinit.tech/key-components-of-infinit/agentic-design-patterns.md)
+- [Dynamic Multi-Large Language Model Integration (LLM)](https://docs.infinit.tech/key-components-of-infinit/dynamic-multi-large-language-model-integration-llm.md)
+- [INFINIT Data Stream](https://docs.infinit.tech/key-components-of-infinit/infinit-data-stream.md)
+- [Safety and Monitoring System](https://docs.infinit.tech/key-components-of-infinit/safety-and-monitoring-system.md)
+- [Overview](https://docs.infinit.tech/roadmap/overview.md)
+- [IN Token ](https://docs.infinit.tech/tokenomics/in-token.md)
+- [Token Distribution](https://docs.infinit.tech/tokenomics/token-distribution.md)
+- [Token Utility](https://docs.infinit.tech/tokenomics/token-utility.md)
+- [Governance Framework](https://docs.infinit.tech/governance/governance-framework.md)
+- [Official Links](https://docs.infinit.tech/others/official-links.md)
+- [Brand Assets](https://docs.infinit.tech/others/brand-assets.md)
+- [Terms of Use](https://docs.infinit.tech/others/terms-of-use.md)
+- [Terms of Use](https://docs.infinit.tech/others/terms-of-use-1.md)
+
+## Chinese
+
+- [什么是 INFINIT?](https://docs.infinit.tech/cn-infinit/xiang-mu-gai-shu/shen-me-shi-infinit.md)
+- [INFINIT的关键要素](https://docs.infinit.tech/cn-infinit/xiang-mu-gai-shu/infinit-de-guan-jian-yao-su.md)
+- [AI一键式DeFi策略](https://docs.infinit.tech/cn-infinit/infinit-ce-le/ai-yi-jian-shi-defi-ce-le.md)
+- [AI探索系统](https://docs.infinit.tech/cn-infinit/infinit-zhi-neng/ai-tan-suo-xi-tong.md)
+- [概述](https://docs.infinit.tech/cn-infinit/an-quan-yu-jian-kong-xi-tong/gai-shu.md)
+- [概述](https://docs.infinit.tech/cn-infinit/fa-zhan-lan-tu/gai-shu.md)
+- [IN代币](https://docs.infinit.tech/cn-infinit/dai-bi-jing-ji-xue/in-dai-bi.md)
+- [代币分发](https://docs.infinit.tech/cn-infinit/dai-bi-jing-ji-xue/dai-bi-fen-fa.md)
+- [代币用途](https://docs.infinit.tech/cn-infinit/dai-bi-jing-ji-xue/dai-bi-yong-tu.md)
+- [治理框架](https://docs.infinit.tech/cn-infinit/zhi-li-ji-zhi/zhi-li-kuang-jia.md)
+- [官方链接](https://docs.infinit.tech/cn-infinit/qi-ta/guan-fang-lian-jie.md)
+- [品牌资产](https://docs.infinit.tech/cn-infinit/qi-ta/pin-pai-zi-chan.md)
+- [使用条款](https://docs.infinit.tech/cn-infinit/qi-ta/shi-yong-tiao-kuan.md)
+- [Terms of Use](https://docs.infinit.tech/cn-infinit/qi-ta/terms-of-use.md)

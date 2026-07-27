@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: probed
+notes: >-
+  Probed the /.well-known/ discovery surface on both the marketing host and the
+  documentation host on 2026-07-19. No documents were served (all 404). Recorded
+  as honest negative results; no raw files saved and no canonical pointer emitted
+  because no catalog/security.txt/OIDC document exists.
+hosts:
+  - host: https://infinit.tech
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
+  - host: https://docs.infinit.tech
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
